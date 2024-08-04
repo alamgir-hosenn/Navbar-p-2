@@ -21,7 +21,7 @@ header {
 }
 ul {
   display: flex;
-  gap: 1em;
+  /* gap: 1em; */
 }
 li {
   list-style: none;
@@ -38,11 +38,15 @@ a {
   font-weight: 600;
   padding: 0.4em 1.5em;
   border: 2px solid rgb(19, 85, 110);
+  /* border-width: 2px;
+  border-style: solid;
+  border-color: rgb(19, 85, 110);*/
   border-radius: 1em;
   color: rgb(255, 255, 255);
+  transition: border-style 0.2s ease;
 }
 .logo:hover {
-  border: 2px dotted rgb(67, 205, 255);
+  border: 2px dotted rgb(109, 216, 255);
 }
 .contact-me {
   margin-right: 1em;
@@ -68,4 +72,19 @@ nav ul li a {
 nav ul li a:hover {
   background-color: rgb(19, 85, 110);
   border: 2px solid rgba(13, 58, 75, 1);
+}
+.menu {
+  display: none;
+  /* visibility: hidden; */
+}
+
+.alamgir {
+  background-color: rgb(99, 99, 99);
+  position: sticky;
+  top: 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+p {
+  color: rgb(167, 166, 166);
 }
