@@ -75,6 +75,7 @@ nav ul li a:hover {
 .menu {
   display: none;
   /* visibility: hidden; */
+  z-index: 10;
 }
 
 .alamgir {
